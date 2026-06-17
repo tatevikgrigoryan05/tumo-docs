@@ -48,7 +48,7 @@ This year, we are focused on strengthening the learning experience, improving op
 .rm-dot { width: 9px; height: 9px; border-radius: 50%; flex: none; }
 .rm-title { font-size: 20px; font-weight: 600; margin: 0; color: var(--scalar-color-1); }
 .rm-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 16px; align-items: start; }
-.rm-card { background: var(--scalar-background-2); border: 1px solid var(--scalar-border-color); border-radius: 12px; padding: 20px 22px; min-height: 220px; }
+.rm-card { background: #ffffff; border: 1px solid var(--scalar-border-color); border-radius: 12px; padding: 20px 22px; min-height: 220px; }
 .rm-tag { display: inline-block; font-size: 11px; font-weight: 500; letter-spacing: .02em; padding: 4px 11px; border-radius: 999px; }
 .rm-card-title { font-size: 16px; font-weight: 600; margin: 13px 0 8px; color: var(--scalar-color-1); }
 .rm-benefit { font-size: 14px; font-weight: 500; color: var(--scalar-color-1); margin: 0 0 10px; line-height: 1.5; }
@@ -59,4 +59,6 @@ This year, we are focused on strengthening the learning experience, improving op
 .rm-full { margin-top: 10px; font-size: 13.5px; color: var(--scalar-color-2); line-height: 1.6; }
 .rm-full ul { margin: 0; padding-left: 18px; }
 .rm-full li { margin: 3px 0; }
+.scalar-app.light-mode { background: #e5eef9 !important; }
+.dark-mode .rm-card { background: var(--scalar-background-2); }
 </style>
