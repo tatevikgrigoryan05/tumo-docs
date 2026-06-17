@@ -1,0 +1,16 @@
+{
+  "$schema": "https://registry.scalar.com/@scalar/schemas/config",
+  "scalar": "2.0.0",
+  "siteConfig": {
+    "title": "Tumo Product Updates"
+  },
+  "navigation": {
+    "routes": {
+      "/": {
+        "type": "page",
+        "title": "Tumo Product Roadmap 2026",
+        "filepath": "roadmap.md"
+      }
+    }
+  }
+}
